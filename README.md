@@ -5,8 +5,6 @@
 **URL**: https://abc.com
 
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
 Follow these steps:
 
 ```sh
@@ -32,5 +30,4 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
 
