@@ -13,18 +13,18 @@ interface Certification {
 const Certifications = () => {
   const certifications: Certification[] = [
     {
-      title: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2024",
-      category: "Cloud",
-      link: "https://aws.amazon.com",
+      title: "Python Full Stack Certified Developer",
+      issuer: "Luminar Technolab",
+      date: "2025",
+      category: "Full Stack Development",
+      link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:6ef7854f-56da-4497-b376-2e58156dbdef",
     },
     {
-      title: "MongoDB Certified Developer",
-      issuer: "MongoDB University",
-      date: "2023",
-      category: "Database",
-      link: "https://university.mongodb.com",
+      title: "Python Certified Developer",
+      issuer: "Zecser Business",
+      date: "2025",
+      category: "Backend",
+      link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:904b5dac-8ff8-46de-9c8e-16321043be5b",
     },
     {
       title: "Docker Certified Associate",
