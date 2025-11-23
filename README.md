@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://abc.com
+**URL**: (https://jayakrishn-as.netlify.app/)
 
 
 Follow these steps to install the code:
