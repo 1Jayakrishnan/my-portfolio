@@ -26,34 +26,34 @@ const Certifications = () => {
       category: "Backend",
       link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:904b5dac-8ff8-46de-9c8e-16321043be5b",
     },
-    {
-      title: "Docker Certified Associate",
-      issuer: "Docker Inc",
-      date: "2023",
-      category: "DevOps",
-      link: "https://docker.com",
-    },
-    {
-      title: "Google Cloud Professional",
-      issuer: "Google Cloud",
-      date: "2024",
-      category: "Cloud",
-      link: "https://cloud.google.com",
-    },
-    {
-      title: "Node.js Application Developer",
-      issuer: "OpenJS Foundation",
-      date: "2023",
-      category: "Backend",
-      link: "https://openjsf.org",
-    },
-    {
-      title: "Kubernetes Administrator",
-      issuer: "Cloud Native Computing Foundation",
-      date: "2024",
-      category: "DevOps",
-      link: "https://cncf.io",
-    },
+    // {
+    //   title: "Docker Certified Associate",
+    //   issuer: "Docker Inc",
+    //   date: "2023",
+    //   category: "DevOps",
+    //   link: "https://docker.com",
+    // },
+    // {
+    //   title: "Google Cloud Professional",
+    //   issuer: "Google Cloud",
+    //   date: "2024",
+    //   category: "Cloud",
+    //   link: "https://cloud.google.com",
+    // },
+    // {
+    //   title: "Node.js Application Developer",
+    //   issuer: "OpenJS Foundation",
+    //   date: "2023",
+    //   category: "Backend",
+    //   link: "https://openjsf.org",
+    // },
+    // {
+    //   title: "Kubernetes Administrator",
+    //   issuer: "Cloud Native Computing Foundation",
+    //   date: "2024",
+    //   category: "DevOps",
+    //   link: "https://cncf.io",
+    // },
   ];
 
   const categories = ["All", "Cloud", "Database", "DevOps", "Backend"];

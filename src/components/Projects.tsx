@@ -69,7 +69,7 @@ const Projects = () => {
       type: "fullstack",
       technologies: ["AI", "Python", "Django REST Framework", "Typescript"],
       image: "https://www.shutterstock.com/image-photo/ai-enhances-customer-review-rating-600nw-2653889215.jpg",
-      github: "https://github.com/1Jayakrishnan/automated-review-system",
+      github: "https://github.com/minhajak/Automated-Review-Rating-System",
     },
     {
       title: "Weather App",
