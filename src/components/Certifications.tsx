@@ -13,6 +13,27 @@ interface Certification {
 const Certifications = () => {
   const certifications: Certification[] = [
     {
+      title: "AI Engineer Agent Track Course",
+      issuer: "Udemy",
+      date: "2025",
+      category: "AI Agents",
+      link: "https://www.udemy.com/certificate/UC-e6f911dc-5612-4002-b488-9ba749d2ae3c/",
+    },
+    {
+      title: "Vibe Coding with Cursor AI",
+      issuer: " Coursera - Scrimba",
+      date: "2025",
+      category: "Cusror AI",
+      link: "https://www.coursera.org/account/accomplishments/verify/MPM3N9EFJNYV",
+    },
+    {
+      title: "Machine Learning with Python",
+      issuer: "Coursera - IBM",
+      date: "2025",
+      category: "Machine Learning",
+      link: "https://www.coursera.org/account/accomplishments/verify/87505USNDH1K ",
+    },
+    {
       title: "Python Full Stack Certified Developer",
       issuer: "Luminar Technolab",
       date: "2025",
@@ -26,27 +47,7 @@ const Certifications = () => {
       category: "Backend",
       link: "https://acrobat.adobe.com/id/urn:aaid:sc:AP:904b5dac-8ff8-46de-9c8e-16321043be5b",
     },
-    // {
-    //   title: "Docker Certified Associate",
-    //   issuer: "Docker Inc",
-    //   date: "2023",
-    //   category: "DevOps",
-    //   link: "https://docker.com",
-    // },
-    // {
-    //   title: "Google Cloud Professional",
-    //   issuer: "Google Cloud",
-    //   date: "2024",
-    //   category: "Cloud",
-    //   link: "https://cloud.google.com",
-    // },
-    // {
-    //   title: "Node.js Application Developer",
-    //   issuer: "OpenJS Foundation",
-    //   date: "2023",
-    //   category: "Backend",
-    //   link: "https://openjsf.org",
-    // },
+
     // {
     //   title: "Kubernetes Administrator",
     //   issuer: "Cloud Native Computing Foundation",

@@ -4,12 +4,12 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-type ProjectType = "all" | "backend" | "fullstack";
+type ProjectType = "all" | "backend" | "fullstack" | "AI";
 
 interface Project {
   title: string;
   description: string;
-  type: "backend" | "fullstack" | "frontend";
+  type: "backend" | "fullstack" | "frontend" | "AI";
   technologies: string[];
   image: string;
   github?: string;
@@ -20,6 +20,24 @@ const Projects = () => {
   const [filter, setFilter] = useState<ProjectType>("all");
 
   const projects: Project[] = [
+    {
+      title: "ShopCart",
+      description: "Bigmart e-commerce platform full stack web application with authentication, payment processing, and product management.Additionally, it offers a automatically rating system for customer reviews using deep learning models.",
+      type: "AI",
+      technologies: ["Python","Django", "HTML", "CSS", "JavaScript", "AI"],
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepG2PsqfVUM8q43b0TlH_vGeTDOKxeYarew&s",
+      github: "https://github.com/1Jayakrishnan/Bigmart-with-auto-review",
+      // demo: "https://example.com",
+    },
+    {
+      title: "Intrusion Detection System and AI agent",
+      description: "Intrusion Detection System and AI agent is a Machiine Learning-based solution designed to monitor network traffic, identify potential security threats, and generate which type of attacks has been detected using LLM.",
+      type: "AI",
+      technologies: ["Python", "ML", "CrewAI"],
+      image: "https://miro.medium.com/v2/resize:fit:1400/1*SOMNXg5wqXWBPyOHSZ7RQQ.jpeg",
+      github: "https://github.com/1Jayakrishnan/ai-agent-IDS",
+      // demo: "https://example.com",
+    },
     {
       title: "E-Commerce API",
       description: "RESTful API for e-commerce platform with authentication, payment processing, and inventory management.",
@@ -127,6 +145,13 @@ const Projects = () => {
               size="sm"
             >
               Full Stack
+            </Button>
+            <Button
+              variant={filter === "AI" ? "default" : "secondary"}
+              onClick={() => setFilter("AI")}
+              size="sm"
+            >
+              AI
             </Button>
           </div>
 
